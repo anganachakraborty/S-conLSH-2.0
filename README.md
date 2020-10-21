@@ -36,7 +36,7 @@ S-conLSH <PathOfSourceFiles> <ReferenceGenome> <ReadFile>  [-K concatenationFact
 -y, --mismatch         <int>           Mismatch penalty for the alignments in extension phase [Default=5]
 -q, --gap-open         <int>           Gap open penalty for the alignments in extension phase [Default=2]
 -r, --gap-extension    <int>           Gap extension penalty for the alignments in extension phase [Default=1]
--a, --align	         <int>           Value=1, outputs alignment in SAM format [Default=0, Alignment-free PAF format output]
+-a, --align	       <int>           Value=1, outputs alignment in SAM format [Default=0, Alignment-free PAF format output]
 --thread               <int>           Number of threads to be forked in a multi-threaded system [Default=1].     
 -h, --help                             Help
 -------------------------------------------------------------------------------------------------------
