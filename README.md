@@ -28,7 +28,7 @@ The default setting of the method works in a single-threaded version. The tool m
 ### Synopsis
 ```
 
-S-conLSH <PathOfSourceFiles> <ReferenceGenome> <ReadFile>  [-K concatenationFactor] [-L NumberOfHashTables] [--lambda contextFactor] [--zero spacesInPatterns] [-w windowsHits] [-m candidates] [-x match] [-y mismatch] [-q gapOpen] [-r gapExtension] [-a alignInSAM] > <OutputFile>
+S-conLSH <PathOfSourceFiles> <ReferenceGenome> <ReadFile>  [-K concatenationFactor] [-L NumberOfHashTables] [--lambda contextFactor] [--zero spacesInPatterns] [-w windowsHits] [-m candidates] [-x match] [-y mismatch] [-q gapOpen] [-r gapExtension] [-a alignInSAM] [--thread numberOfThreads] > <OutputFile>
 
 
 ```
