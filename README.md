@@ -53,7 +53,7 @@ The package includes sample reference genome and SMRT reads to demonstrate the q
 
 ``` For SMRT alignment in SAM format
 
-``` ./S-conLSH ../src/ ../sample_data/ecoli_AE005174v2.fas ../sample_data/SRR801638.fasta --align 1 > sample.sam
+ ./S-conLSH ../src/ ../sample_data/ecoli_AE005174v2.fas ../sample_data/SRR801638.fasta --align 1 > sample.sam
 
 
 ```
